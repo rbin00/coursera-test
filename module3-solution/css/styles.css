@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+/** HEADER **/
+#header-nav{
+    background-color: lightgray;
+    color: black;
+    border-radius: 0;
+    border: 0;
+  }
+
+.navbar-brand a {
+    position: absolute;
+    left: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+} 
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+/** Main **/
+
+h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#section_1 {
+    background-color: lightgray;
+    margin: 0% 10px 20px 10px;
+    padding: 0px 15px 10px 15px;
+    text-align:justify;
+}
+
+#section_2 {
+    background-color: lightgray;
+    margin: 0% 10px 20px 10px;
+    padding: 0px 15px 10px 15px;
+    text-align:justify;
+  }
+
+#section_3 {
+    background-color: lightgray;
+    margin: 0% 10px 20px 10px;
+    padding: 0px 15px 10px 15px;
+    text-align:justify;
+  }
+
+  /********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -40px;
+}
+
+.navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.navbar-nav a {
+    text-align: center;
+    font-size: 1.3em;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.navbar-nav li:nth-child(1) {
+    border-top: 1px solid black;
+}
+
+#nav-list a{
+    color: black;
+}
+#nav-list a:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+}
